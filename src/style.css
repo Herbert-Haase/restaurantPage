@@ -1,0 +1,94 @@
+@font-face {
+  font-family: "Pacifico";
+  src: url("./Pacifico-Regular.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #3e3e3e; /* Dark Charcoal Gray for Text */
+  background-color: #f5efe9; /* Soft Cream for Background */
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#content {
+  margin: 15px auto;
+  padding: 20px 20px;
+  border-radius: 25px;
+  max-width: 810px;
+  position: relative;
+  background-color: #e8e2d8;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Pacifico", "Georgia", serif;
+  color: #4e5749; /* Muted Green for Headings */
+}
+
+h1 {
+  font-size: 40px;
+  text-align: center;
+  margin: 15px 0;
+}
+
+h2 {
+  font-size: 25px;
+  margin: 10px 0;
+}
+
+.tab-button {
+  background-color: #7e6b5a;
+  color: #e8e2d8;
+  font-weight: bolder;
+  font-size: 15px;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 5px 20px;
+}
+.tab-active {
+  background-color: #e8e2d8;
+  color: #7e6b5a;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: center;
+}
+
+header {
+  box-sizing: border-box;
+  padding-top: 10px;
+  background-color: #f5efe9;
+}
+
+footer {
+  background-color: #4e5749; /* Muted Green */
+  color: #f5efe9; /* Soft Cream */
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+#attribution > a {
+  color: #e8e2d8;
+}
